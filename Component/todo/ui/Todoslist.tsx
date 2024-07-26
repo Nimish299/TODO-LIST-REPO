@@ -15,7 +15,7 @@ function TodoListItems() {
 
       <Flex pt={2} key={todo.id}>
         <Checkbox position="static" />
-        <input mx ="2" value={todo.text} onChange={(e)=>DOMRectReadOnly}/>
+        <input  value={todo.text} onChange={(e)=>DOMRectReadOnly}/>
         <Button position="static" onClick={()=> todosStore.deletetodo(todo.id)}>Delete</Button>
       </Flex>
     ))}
