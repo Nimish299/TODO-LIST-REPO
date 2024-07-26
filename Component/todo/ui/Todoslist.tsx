@@ -4,7 +4,8 @@ import {
   HStack,
   Spacer
 } from '@chakra-ui/react'
-import todosStore, { ITodoModel } from '../store/todoStore'
+import { ITodoModel } from '@/imodels/iTodoModels'
+import todosStore from '../store/todoStore'
 import { observer } from 'mobx-react-lite'
 function TodoListItems() {
   return (
